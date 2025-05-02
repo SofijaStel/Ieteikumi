@@ -1,0 +1,71 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    color: #222;
+    line-height: 1.6;
+}
+
+header {
+    padding: 30px 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 30px 20px;
+    background-image: url("https://i.postimg.cc/qMdmBTV4/Ekr-nuz-mums-2025-04-30-202722.png");
+    background-repeat: repeat;
+    background-position: center;
+    }
+    h1 {
+        font-size: 45px; 
+        text-align:left; 
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px #000000; 
+        margin-left: 100px;
+    }
+    
+    .book-list {
+        padding: 20px;
+    }
+    
+    .book-item {
+        display: flex; 
+        align-items: center; 
+        margin-bottom: 70px; 
+    }
+    
+    .book-item img {
+        width: 270px;
+        height: auto;
+        border: 1px solid #ddd;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+        margin-right: 30px; 
+        margin-left: 100px;
+        margin-top: 70px;
+    }
+    
+    .book-info {
+        flex-grow: 1;
+    }
+    
+    .book-info h3 {
+        font-size: 29px;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    
+    .book-info p {
+        font-size: 19px; 
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    .book-info strong {
+        font-weight: bold; 
+    }
+    hr {
+        border: 0;
+        height: 1px;
+        background: #000000;
+        margin: 20px 0;
+    }
